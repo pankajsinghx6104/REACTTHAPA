@@ -1,5 +1,5 @@
 import { useState } from "react";
-export const State = () => {
+ const State = () => {
     const [count, setCount] = useState(0);
     const handleButtonClick = () => {
         setCount(() => count + 1);
@@ -14,3 +14,5 @@ export const State = () => {
     </>
   );
 };
+
+export default State;
